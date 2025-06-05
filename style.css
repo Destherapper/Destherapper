@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:floralwhite;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+header{
+    background-color:red;
+    padding: 20px;
+}
+logoarea{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    color: darkolivegreen;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background: magenta;
+}
+.hero{
+    color:limegreen;
+    text-align: center;
+    padding:30px 60px;
+    /*background-color: #181bdf;*/
+}
+.herocontent{
+    background-color: #a92626;
+    padding: 50px;
+    border-radius: 20px;
+}
+programs{
+    background-color:forestgreen;
+    padding: 20px;
+    text-align:center;
+}
+.program-box{
+    width: 250px;
+    display: inline-block;
+    margin:10px;
+    padding:20px;
+    background-color: purple;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow:  2px 6px;
+}
+.btn{
+    background-color: yellow;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+.btn:hover{
+    background-color: #4936f4;
+}
+.contact-section{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: purple;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px;
+    text-align: left;
+}
+.contact-form label{
+    display: block;
+    color: #a92626;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea{
+
+    width:100%;
+    padding:10px 12px;
+    border:1px solid grey;
+    margin-bottom: 20px;
+}
+.contact-form input[type=text],
+.contact-form input[type=email]
+.contact-form textarea :focus {
+                                                                 border-color: lightcoral;
+                                                                 outline: none;}
+
+.contact-form.btn{
+    background-color: #4936f4;
+    border-radius: 5px;
+    color:black;
+    border: none;
+}
+.contact-form,btn :hover{
+    background-color: lightcoral;
+}
+h1 {
+    color: #7cf436;
+    text-align: center
+}
+p{
+    font-family: sans-serif;
+}
+h2{
+    color: #181bdf;
+    text-align: center;
+}
+h3{
+    color: #181bdf;
+}
+logo img{
+    height:50px;
+    width: auto;
+    border-radius: 50px;
+}
+#inked logo{
+    color: #181bdf;
+    font-size:20px;
+}
+form{
+    color:cornflowerblue;
+    border-radius:5px;
+}
+.about section{
+    background-color: lime;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.why-choose-us{
+    background-color:palegreen;
+    padding: 40px 20px;
+    margin: 20px;
+}
+.why-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.why-box{
+    background-color:limegreen;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    box-shadow:0 0 8px lightcoral;
+    font-weight: bold;
+}
+.image-section{
+    padding: 40px 20px;
+    text-align: center;
+}
+.image-box{
+    background-color: limegreen;
+    width: 200px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 8px lightcoral;
+}
+.image-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.testimonial{
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-left: 5px solid lightcoral;
+    box-shadow: 0 0 6px lightcoral;
+}
+.testimonial h2{
+    color:orangered;
+    text-align: center;
+
+}
