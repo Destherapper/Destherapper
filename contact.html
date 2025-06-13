@@ -2,53 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>contact us</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact us</title>
+    <link href="css/bootsrap.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="logoarea">
-        <img src="linked%20logo.png"alt="linked logo" class="logoimg">
-        <h1 id="linked logo">Tech brain</h1>
+nav class="navbar navbar-expand-lg navbar-bark bg-secondary">
+    <div class="container">
+        <a class="navbar-brand"href="#">EMOBILIS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"></button>
+        <span class="navbar-toggler-icon"></span>
+        </button>
     </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="#"> about</a></li>
-            <li><a href="#"> services</a></li>
-            <li><a href="contact.html"> contact</a></li>
+    <div id="my navbar-content" class="collapse navbar-collapse">
+        <ul class="navbar-nav" ms-auto>
+            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
         </ul>
-    </nav>
-</header>
+         </div>
+</nav>
+<!--contact-->
+<div class="container">
+    <h1 class="text center">contact us</h1>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <form></form>
+            <div class=""
+            <label for="name" class="form-label">full name</label>
+            <input type="text"id="name" class="form-control">
+            <label for="name" class="form-label">Email address</label><br>
+            <input type="email" id="email" class="form-control">
+            <label for="email" class="form-label">Message</label><br>
+            <text-area></text-area> id="message" class="form-control" rows="5" placeholder="write any message"</textarea>
+             <button type="submit" class="btn btn-primary">Send messages</button>
+        </div>
+    </div>
+</div>
+<footer class="bg-primary mt-5 py-3 text-white text-center">
+    <p>&copy 2025</p>
 
-<h1>contact us</h1>
-<section class="contact-section">
-    <h2>contact us</h2>
-    <p>have questions or want to registerwith us?fill in the form below. get in touch</p>
-    <form class="contact form">
 
-        <label for="name">fullname:</label>
-        <input type="text" id="name"name="name"required><br>
-        <label type="email">email address:</label>
-        <input type="email"id="email"name="email"><br>
-        <label>select course</label>
-        <select>
-            <option value="web">web development</option>
-            <option value="datascience">datascience</option>
-            <option value="AI">artificial intelligence</option>
-        </select><br>
-        <label for="message">message</label>
-        <textarea id="message"rows="5"placeholder="write your message here"></textarea><br>
-         <label for="fileupload">attach a file</label>
-        <input type="file"id="fileupload"><br>
-        <label> subscribe to our news letter?</label>
-        <input type="checkbox" value="yes"><label> yes keep me updated</label><br>
-        <button type="submit" class="btn">SUBMIT</button>
-        <button type="reset">RESET</button>
-        </fieldset>
 
-    </form>
-</section>
+
+</footer>
 
 
 </body>
